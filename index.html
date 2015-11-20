@@ -3,11 +3,9 @@
   <head>
     <meta charset="UTF-8">
     <title>Jay Agonoy</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 	<meta name="og:type" content="video.other" />
 	<meta name="og:video" content="https://www.youtube.com/embed/2g8fO8faQEo" />
@@ -24,35 +22,35 @@
 	<meta name="profile:first_name" content="Jay" />
 	<meta name="profile:last_name" content="Agonoy" />
 	<meta name="profile:gender" content="male" />	
-	<style>
-		/* http://codepen.io/flopreynat/details/KGAov/ */
+	<link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.indigo-light_blue.min.css" />
 	
-		.video-container {
-			position: relative;
-			height: 0;
-			padding-bottom: 56.25%;
-		}
 
-		.video-container > * {
-			position: absolute;
-			top: 0;
-			left: 0;
-			height: 100%;
-			width: 100%;
-		}	
-	</style>
   </head>
   <body>
-    <section class="page-header">
-	  <div class="video-container">
-		<iframe width="1280" height="720" src="https://www.youtube.com/embed/2g8fO8faQEo" frameborder="0" allowfullscreen></iframe>
-	  </div>
-	  <br />
-	  <a class="btn" href="http://jay.is-super.moe">Continue to jay.is-super.moe &raquo;</a>
-	  <footer class="site-footer">
-        <span class="site-footer-credits">This page uses a modified version of the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
-    </section>
+    <div class="demo-layout mdl-layout mdl-layout--fixed-header mdl-js-layout mdl-color--grey-100">
+      <header class="demo-header mdl-layout__header mdl-layout__header--scroll mdl-color--grey-100 mdl-color-text--grey-800">
+        <div class="mdl-layout__header-row">
+          <span class="mdl-layout-title">Jay Agonoy</span>
+          <div class="mdl-layout-spacer"></div>
+          <div class="mdl-layout-title">
+			<!-- Accent-colored raised button with ripple -->
+			<a href="http://jay.is-super.moe" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+			  Continue to jay.is-super.moe
+			</a>
+					  
+          </div>
+        </div>
+      </header>
+      <div class="demo-ribbon"></div>
+      <main class="demo-main mdl-layout__content">
+        <div class="demo-container mdl-grid">
+          <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+          <div class="demo-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
+			<iframe width="720" height="540" src="https://www.youtube.com/embed/2g8fO8faQEo" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </main>
+    </div>
   </body>
-  <script src="//fast.eager.io/NP5i4HDFQ1.js"></script>
+  
 </html>
